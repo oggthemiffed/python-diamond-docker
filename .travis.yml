@@ -1,5 +1,6 @@
-dist: xenial
-sudo: required
+os: linux
+dist: bionic
+language: generic
 
 before_install:
   - curl -fsSL https://get.docker.com | sh
