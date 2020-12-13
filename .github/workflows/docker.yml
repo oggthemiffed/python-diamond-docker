@@ -20,7 +20,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: pibcak/docker-collectd # list of Docker images to use as base name for tags
+          images: pibcak/python-diamond # list of Docker images to use as base name for tags
           tag-semver: |
             {{major}}.{{minor}}
       -
